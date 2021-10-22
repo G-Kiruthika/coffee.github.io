@@ -1,0 +1,427 @@
+
+*{
+        padding:0;
+        box-sizing: border-box;
+        margin: 0;
+}
+.first-page{
+        width:100vw;
+        height:100vh;
+        background-size:cover;
+        background-position:center;
+        display:flex;
+        opacity:0.9;
+        background-image:url("assets/coffeeshop.jpg");
+        transform-style: preserve-3d;
+}
+
+.image img{
+        position:relative;
+        top:20px;
+        left:20px;
+        align-items: center;
+
+}
+        
+.heading h1{
+           opacity:0.6;
+           font-size: 40px;
+           letter-spacing: 30px;
+           color:black;
+           font-weight:900;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+           position:relative;
+           top:180px;
+           left:400px;
+
+        }
+
+.heading p{
+        position:relative;
+        left:950px;
+        top:70px;
+     
+        font-weight: 700;
+
+}
+
+.heading h3{
+        position:relative;
+        left:1000px;
+        font-weight: 900;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        top:100px;
+
+}
+
+
+
+.navbar{
+ display: flex;
+ position:fixed;
+ color:black;
+background-color: bisque;
+width:1450px;
+ opacity:0.7;
+                
+        
+        }
+
+        .navbar p:hover{
+                
+                background-color:chocolate;
+                
+        }
+        p{
+                text-decoration: none;
+                padding:25px;
+                display:flex;
+                position:relative;
+                left:520px;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+        }
+        
+        a{
+                text-decoration: none;
+                display:flex;
+                color:black;
+               
+        }
+
+
+.order button{
+        position:relative;
+        top:550px;
+        left:50px;
+        bottom:200px;
+        cursor:pointer;
+        width:300px;
+        color:rgb(252, 183, 10);
+        border-width: 5px;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-color: rgb(0, 0, 0);
+        background-color: transparent;
+
+
+
+}
+
+.order button:hover{
+        background-color:peachpuff;
+
+}
+
+/***********************************Second page*****************************/
+
+.second-page
+
+{
+        width:100vw;
+        height:120vh;
+}
+
+
+.wood{
+        background-image:url(assets/darkimage.jpg) ;
+        background-size: cover;
+        background-position: center;
+        height:350px;
+        position: relative;
+        bottom:10px;
+}
+
+.wood h2{
+        color:white;
+        text-align: center;
+        position: relative;
+        top:50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.wood p{
+        position: relative;
+        top:20px;
+        right:170px;
+        left: 400px;
+        opacity: 0.8;
+        color:white;
+        font-size: 30px;
+        opacity: 0.8;
+
+}
+
+.wood img{
+        position: relative;
+        top:100px;
+        left:50px;
+
+}
+.menu button{
+        border-radius: 10px;
+        border-color: black;
+        background-image: url(./assets/darkimage.jpg);
+        color: white;
+        height: 50px;
+        width: 150px;
+        position: relative;
+        top: 350px;
+        left: 660px;
+        cursor: pointer;
+}
+
+/**About***************************************************/
+
+.about{
+        background-color: burlywood;
+        height: 80vh;
+
+}
+.abt3{
+        background-color: #75452e;
+        margin: 30px 20px;
+        height: 50vh;
+}
+.abt-2 h2{
+        text-align: center;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+}
+
+.bvb img{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left:100px;
+        top: 30px;
+}
+.cap p{
+        font-family: monospace;
+        position: relative;
+        bottom: 200px;
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+
+}
+
+.ab-2::after{
+
+}
+
+
+
+
+/*********************************Contact-page*******************************/
+
+.contact-page{
+        width:100vw;
+        height:100vh;
+        background-image: url(assets/blur.jpg);
+        background-color: transparent;
+        background-size:cover;
+        background-position:center;
+        display:flex;
+             
+}
+
+.reservation h2{
+        color:rgb(26, 24, 24);
+        position:relative;
+        left:500px;
+        top:30px;
+        letter-spacing:4px;
+        font-weight: 800;
+
+}
+
+.reservation h5{
+        opacity:0.8;
+        font-size: 20px;
+        position:relative;
+        left:600px;
+        top:30px;
+        font-weight:bolder;
+        font-family: cursive;
+        color:black;
+
+}
+
+.form
+{
+        width:2600px;
+        height:430px;
+        background-color: black;
+        position:relative;
+        right:150px;
+        top:200px;
+        opacity:0.8;
+}
+
+.name h3{
+        color:white;
+        letter-spacing: 3px;
+        position:relative;
+        left:30px;
+        top:50px;
+}
+
+.type input[type=text]
+{
+        position:relative;
+        top:60px;
+        left:60px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        width:300px;
+       height:50px;
+       background-color: rgb(206, 210, 212);
+}
+
+ input[type=number]
+{
+        position:relative;
+        top:80px;
+        left:60px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        width:300px;
+       height:50px;
+       background-color: rgb(206, 210, 212);
+}
+
+
+input[type="email"]{
+        position:relative;
+        top:100px;
+        left:60px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        width:300px;
+       height:100px;
+       background-color: rgb(206, 210, 212);
+}
+
+
+.first-name{
+        position: relative;
+        left: 450px;
+        bottom:210px;
+       
+}
+
+.phonenumber{
+        position:relative;
+        left:450px;
+        bottom:180px;
+}
+
+
+
+.now{
+        position:relative;
+        left:550px;
+        bottom:80px;
+        width:300px;
+        display:flex;
+        
+}
+
+input[type=submit]{
+        width:250px;
+        font-family: Arial, Helvetica, sans-serif;
+        height:40px;
+        border-radius: 20px;
+        border-color:whitesmoke;
+        background-color: black;
+        color:white;
+        cursor: pointer;
+
+}
+
+.personal{
+        position: relative;
+        bottom:50px;
+}
+
+.data h3{
+        color:white;
+        position:relative;
+        left:450px;
+        letter-spacing: 3px;
+        bottom:160px;
+}
+/**********************************************last page**************/
+
+.last-page{
+        height:60vh;
+        width:100vw;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: #75452e;
+        color: white;
+}
+
+.footer img{
+        position: relative;
+        left:150px;
+        bottom:60px;
+        top:30px;
+}
+
+
+.row1 h3{
+        position: relative;
+        font-weight: 900;
+}
+
+
+.home h3 {
+ position: relative;
+ bottom: 60px;
+ left: 400px;
+ cursor: pointer;
+}
+.about1 h3{
+        position: relative;
+        bottom: 100px;
+        left: 700px;
+        cursor: pointer;
+}
+.contact h3{
+        position: relative;
+        left: 950px;
+      bottom: 150px;
+}
+
+.contact {
+        position: relative;
+        bottom: 100px;
+        left: 400px;
+}
+.cont2 p{
+        bottom: 800px;
+}
+
+
+
+
+.cont2 h3{
+        position: relative;
+        bottom: 50px;
+        left:600px;
+}
+
+
+.para p{
+        position: relative;
+        left:900px;
+        bottom: 100px;
+}
+
